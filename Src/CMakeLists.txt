@@ -16,8 +16,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
-add_library(Gui
+add_library(GuiLib
             STATIC
-            ${TITLE_WIDGET})
+            ${TITLE_WIDGET}
+            ${MENU_BAR}
+            ${MAIN_WINDOW})
 
-target_link_libraries(Gui PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(GuiLib PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)

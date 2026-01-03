@@ -13,7 +13,7 @@ MainWindow::~MainWindow()
     if(menuBar != nullptr)
         delete menuBar;
     if(mainToolBar != nullptr)
-        delete != firstToolBar;
+        delete firstToolBar;
     if(firstToolBar != nullptr)
         delete firstToolBar;
     if(secondToolBar != nullptr)

@@ -1,0 +1,5 @@
+
+FernMenuBar::FernMenuBar(QWidget *parrent)
+{
+
+}

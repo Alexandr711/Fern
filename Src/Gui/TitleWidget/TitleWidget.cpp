@@ -12,5 +12,6 @@ TitleWidget::~TitleWidget()
 
 QPushButton *TitleWidget::createButton()
 {
-    QPushButton
+    QPushButton* tempButton = new QPushButton;
+    return tempButton;
 }
