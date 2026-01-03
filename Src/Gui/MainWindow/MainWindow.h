@@ -2,7 +2,7 @@
 #include <QMenuBar>
 #include <QToolBar>
 
-class MainWindow: QWidgetData
+class MainWindow: public QWidget
 {
     Q_OBJECT
 

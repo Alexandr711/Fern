@@ -2,9 +2,9 @@ include(${CMAKE_CURRNET_SOURCE_DIR}Gui/TitleWidget/TitleWidget.cmake)
 include(${CMAKE_CURRNET_SOURCE_DIR}Gui/MainWindow/MainWindow.cmake)
 include(${CMAKE_CURRNET_SOURCE_DIR}Gui/MenuBar/MenuBar.cmake)
 
-include_directories(Gui/TitleWidget)
-include_directories(Gui/MainWindow)
 include_directories(Gui/MenuBar)
+include_directories(${MAIN_WINDOW_DIRECTORY})
+include_directories(${MENU_BAR_DIRECTORY})
 
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)

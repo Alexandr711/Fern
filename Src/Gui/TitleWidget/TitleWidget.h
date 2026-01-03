@@ -1,7 +1,7 @@
 #include <QWidget>
 #include <QPushButton>
 
-class TitleWidget: public QWidgetData
+class TitleWidget: public QWidget
 {
     Q_OBJECT
 
@@ -12,7 +12,7 @@ private:
     QPushButton* assembly3dButton;
 
 public:
-    TitleWidget(QWidget* parent = nullptr);
+    TitleWidget(QWidget* parrent = nullptr);
     ~TitleWidget();
 
     QPushButton* createButton();

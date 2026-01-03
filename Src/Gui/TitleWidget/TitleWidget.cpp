@@ -1,6 +1,6 @@
 #include "TitleWidget.h"
 
-TitleWidget::TitleWidget(QWidget *parent)
+TitleWidget::TitleWidget(QWidget *parrent): QWidget(parrent)
 {
 
 }
