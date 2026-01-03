@@ -36,4 +36,5 @@ private:
 public:
     FernMenuBar(QWidget *parrent = nullptr);
     ~FernMenuBar();
+    void setWidgets();
 };

@@ -2,6 +2,8 @@
 #include <QMenuBar>
 #include <QToolBar>
 
+#include "MenuBar.h"
+
 class MainWindow: public QWidget
 {
     Q_OBJECT
