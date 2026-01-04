@@ -1,5 +1,6 @@
 #include "MainWindow.h"
 
+
 MainWindow::MainWindow(QWidget *parrent): QMainWindow(parrent)
 {
     menuBar = nullptr;
@@ -20,11 +21,21 @@ MainWindow::~MainWindow()
         delete secondToolBar;
 }
 
-void MainWindow::setFMenuBar()
+void MainWindow::addMenuBar()
 {
     menuBar = new FernMenuBar();
     menuBar->setItems();
     setMenuBar(menuBar);
+}
+
+void MainWindow::selectLanguage()
+{
+
+}
+
+void MainWindow::openLanguageFiles()
+{
+
 }
 
 

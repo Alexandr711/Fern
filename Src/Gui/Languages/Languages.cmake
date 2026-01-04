@@ -1,0 +1,5 @@
+set(LANGUAGES_DIRECTORY ${CMAKE_CURRNET_SOURCE_DIR}Gui/Languages)
+
+set(LANGUAGES
+    ${LANGUAGES_DIRECTORY}/LanguagesResources.qrc
+    )

@@ -6,7 +6,7 @@ int main(int argc, char** argv)
 {
     QApplication app(argc, argv);
     MainWindow wnd;
-    wnd.setFMenuBar();
+    wnd.addMenuBar();
     wnd.show();
     return app.exec();
 }

@@ -4,6 +4,7 @@
 #include <QToolBar>
 
 #include "MenuBar.h"
+#include "Languages.h"
 
 class MainWindow: public QMainWindow
 {
@@ -19,5 +20,7 @@ public:
     MainWindow(QWidget* parrent = nullptr);
     ~MainWindow();
 
-    void setFMenuBar();
+    void addMenuBar();
+    void selectLanguage();
+    //void
 };

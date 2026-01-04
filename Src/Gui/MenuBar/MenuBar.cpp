@@ -2,29 +2,29 @@
 
 FernMenuBar::FernMenuBar(QWidget *parrent): QMenuBar(parrent)
 {
-    fileMenu = new QMenu("File");
-    createFileAction = new QAction("New file");
-    createProjectAction = new QAction("New project");
-    openFileAction = new QAction("Open file");
-    openProjectAction = new QAction("Open project");
+    fileMenu = new QMenu;
+    createFileAction = new QAction;
+    createProjectAction = new QAction;
+    openFileAction = new QAction;
+    openProjectAction = new QAction;
 
-    exitAction = new QAction("Exit");
+    exitAction = new QAction;
 
-    editMenu = new QMenu("Edit");
-    undoAction = new QAction("Undo");
-    redoAction = new QAction("Redo");
+    editMenu = new QMenu;
+    undoAction = new QAction;
+    redoAction = new QAction;
 
-    helpMenu = new QMenu("Help");
-    languageMenu = new QMenu("Language");
-    englishAction = new QAction("English");
-    japaneseAction = new QAction("Japanese");
-    russianAction = new QAction("Russian");
+    helpMenu = new QMenu;
+    languageMenu = new QMenu;
+    englishAction = new QAction;
+    japaneseAction = new QAction;
+    russianAction = new QAction;
 
-    colorThemeMenu = new QMenu("Color theme");
-    darkAction = new QAction("Dark theme");
-    lightAction = new QAction("Light them");
+    colorThemeMenu = new QMenu;
+    darkAction = new QAction;
+    lightAction = new QAction;
 
-    aboutAction = new QAction("About");
+    aboutAction = new QAction;
 }
 
 FernMenuBar::~FernMenuBar()

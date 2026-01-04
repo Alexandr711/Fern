@@ -2,5 +2,7 @@ set(MAIN_WINDOW_DIRECTORY ${CMAKE_CURRNET_SOURCE_DIR}Gui/MainWindow)
 
 
 set(MAIN_WINDOW
+    ${MAIN_WINDOW_DIRECTORY}/Languages.h
     ${MAIN_WINDOW_DIRECTORY}/MainWindow.h
-    ${MAIN_WINDOW_DIRECTORY}/MainWindow.cpp)
+    ${MAIN_WINDOW_DIRECTORY}/MainWindow.cpp
+    )

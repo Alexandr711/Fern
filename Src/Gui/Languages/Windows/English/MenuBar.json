@@ -1,0 +1,8 @@
+{
+    "File": "File",
+    "Open file":        "Open file                     Ctrl+O",
+    "Open project" :    "Open project                     Ctrl+Shift+O",
+    "Create file":      "Create file                     Ctrl+N",
+    "Create project":   "Create project                    Ctrl+Shift+N",
+    "Quit":             "Quit                         Ctrl+Q"
+}

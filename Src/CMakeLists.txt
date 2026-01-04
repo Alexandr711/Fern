@@ -1,10 +1,12 @@
 include(${CMAKE_CURRNET_SOURCE_DIR}Gui/TitleWidget/TitleWidget.cmake)
 include(${CMAKE_CURRNET_SOURCE_DIR}Gui/MainWindow/MainWindow.cmake)
 include(${CMAKE_CURRNET_SOURCE_DIR}Gui/MenuBar/MenuBar.cmake)
+include(${CMAKE_CURRNET_SOURCE_DIR}Gui/Languages/Languages.cmake)
 
-include_directories(${MENU_BAR_DIRECTORY})
-include_directories(${MAIN_WINDOW_DIRECTORY})
-include_directories(${MENU_BAR_DIRECTORY})
+include_directories(Gui/MenuBar)
+include_directories(Gui/MainWindow)
+include_directories(Gui/MenuBar)
+include_directories(Gui/Languages)
 
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
@@ -20,6 +22,7 @@ add_library(GuiLib
             STATIC
             ${TITLE_WIDGET}
             ${MENU_BAR}
-            ${MAIN_WINDOW})
+            ${MAIN_WINDOW}
+            ${LANGUAGES})
 
 target_link_libraries(GuiLib PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
