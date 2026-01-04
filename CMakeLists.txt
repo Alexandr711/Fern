@@ -12,7 +12,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 include_directories(Src/Gui/MainWindow)
-#include_directories(Src/Gui/MenuBar)
+include_directories(Src/Gui/MenuBar)
 #include_directories(Src/Gui/TitleWidget)
 
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)

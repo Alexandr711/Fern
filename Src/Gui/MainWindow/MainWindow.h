@@ -1,15 +1,16 @@
 #include <QWidget>
+#include <QMainWindow>
 #include <QMenuBar>
 #include <QToolBar>
 
 #include "MenuBar.h"
 
-class MainWindow: public QWidget
+class MainWindow: public QMainWindow
 {
     Q_OBJECT
 
 private:
-    QMenuBar* menuBar;
+    FernMenuBar* menuBar;
     QToolBar* mainToolBar;
     QToolBar* firstToolBar;
     QToolBar* secondToolBar;
@@ -18,9 +19,5 @@ public:
     MainWindow(QWidget* parrent = nullptr);
     ~MainWindow();
 
-    //setters
-    void setMenuBar(QMenuBar* menuBar);
-    void setMainToolBar(QToolBar* toolBar);
-    void setFirstToolBar(QToolBar* toolBar);
-    void setSecondToolBar(QToolBar* toolBar);
+    void setFMenuBar();
 };

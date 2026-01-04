@@ -2,7 +2,7 @@ include(${CMAKE_CURRNET_SOURCE_DIR}Gui/TitleWidget/TitleWidget.cmake)
 include(${CMAKE_CURRNET_SOURCE_DIR}Gui/MainWindow/MainWindow.cmake)
 include(${CMAKE_CURRNET_SOURCE_DIR}Gui/MenuBar/MenuBar.cmake)
 
-include_directories(Gui/MenuBar)
+include_directories(${MENU_BAR_DIRECTORY})
 include_directories(${MAIN_WINDOW_DIRECTORY})
 include_directories(${MENU_BAR_DIRECTORY})
 

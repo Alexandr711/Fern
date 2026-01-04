@@ -1,6 +1,6 @@
 #include "MainWindow.h"
 
-MainWindow::MainWindow(QWidget *parrent): QWidget(parrent)
+MainWindow::MainWindow(QWidget *parrent): QMainWindow(parrent)
 {
     menuBar = nullptr;
     mainToolBar = nullptr;
@@ -20,22 +20,11 @@ MainWindow::~MainWindow()
         delete secondToolBar;
 }
 
-void MainWindow::setMenuBar(QMenuBar *menuBar)
+void MainWindow::setFMenuBar()
 {
-    this->menuBar = menuBar;
+    menuBar = new FernMenuBar();
+    menuBar->setItems();
+    setMenuBar(menuBar);
 }
 
-void MainWindow::setMainToolBar(QToolBar *toolBar)
-{
-    mainToolBar = toolBar;
-}
 
-void MainWindow::setFirstToolBar(QToolBar *toolBar)
-{
-    firstToolBar = toolBar;
-}
-
-void MainWindow::setSecondToolBar(QToolBar *toolBar)
-{
-    secondToolBar = toolBar;
-}

@@ -2,8 +2,6 @@
 
 class FernMenuBar : public QMenuBar
 {
-    Q_OBJECT
-
 private:
     QMenu* fileMenu;
         QAction* createFileAction;
@@ -36,5 +34,5 @@ private:
 public:
     FernMenuBar(QWidget *parrent = nullptr);
     ~FernMenuBar();
-    void setWidgets();
+    void setItems();
 };
