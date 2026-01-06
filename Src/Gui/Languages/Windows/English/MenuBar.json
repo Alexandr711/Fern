@@ -1,8 +1,22 @@
 {
-    "File": "File",
-    "Open file":        "Open file                     Ctrl+O",
-    "Open project" :    "Open project                     Ctrl+Shift+O",
-    "Create file":      "Create file                     Ctrl+N",
-    "Create project":   "Create project                    Ctrl+Shift+N",
-    "Quit":             "Quit                         Ctrl+Q"
+    "File":             "File",
+    "Open file":        "Open file                                              Ctrl+O",
+    "Open project" :    "Open project                                       Ctrl+Shift+O",
+    "Create file":      "Create file                                            Ctrl+N",
+    "Create project":   "Create project                                      Ctrl+Shift+N",
+    "Quit":             "Quit                                                     Ctrl+Q",
+
+    "Edit":             "Edit",
+    "Undo":             "Undo                                                      Ctrl+Z",
+    "Redo":             "Redo                                                      Ctrl+Y",
+
+    "Help":             "Help",
+    "Language":         "Language                            ",
+    "English":          "English                             ",
+    "Japanese":         "Japanese                            ",
+    "Russian":          "Russian                             ",
+    "Color theme":      "Color theme                         ",
+    "Dark theme":       "Dark theme                          ",
+    "Light theme":      "Light theme                         ",
+    "About":            "About                               "
 }

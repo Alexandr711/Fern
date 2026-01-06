@@ -2,6 +2,8 @@
 #include <QMainWindow>
 #include <QMenuBar>
 #include <QToolBar>
+#include <QJsonDocument>
+#include <QJsonObject>
 
 #include "MenuBar.h"
 #include "Languages.h"
@@ -22,5 +24,6 @@ public:
 
     void addMenuBar();
     void selectLanguage();
-    //void
+    QJsonObject openJsonFile(QString);
+    void setTitlesMenuBar();
 };

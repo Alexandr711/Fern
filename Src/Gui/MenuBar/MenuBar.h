@@ -2,7 +2,7 @@
 
 class FernMenuBar : public QMenuBar
 {
-private:
+public:
     QMenu* fileMenu;
         QAction* createFileAction;
         QAction* createProjectAction;
@@ -35,5 +35,6 @@ public:
     FernMenuBar(QWidget *parrent = nullptr);
     ~FernMenuBar();
     void setItems();
+
 
 };

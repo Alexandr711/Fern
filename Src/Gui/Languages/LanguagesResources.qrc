@@ -1,1 +1,5 @@
-<RCC/>
+<RCC>
+    <qresource prefix="/">
+        <file>Windows/English/MenuBar.json</file>
+    </qresource>
+</RCC>

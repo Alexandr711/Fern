@@ -1,21 +1,18 @@
 #include <QWidget>
-#include <QPushButton>
+#include <QToolButton>
 
 class TitleWidget: public QWidget
 {
     Q_OBJECT
 
 private:
-    QPushButton* docButton;
-    QPushButton* palnButton;
-    QPushButton* detail3dButton;
-    QPushButton* assembly3dButton;
+    QToolButton* docButton;
+    QToolButton* planButton;
+    QToolButton* detail3dButton;
+    QToolButton* assembly3dButton;
 
 public:
     TitleWidget(QWidget* parrent = nullptr);
     ~TitleWidget();
-
-    QPushButton* createButton();
-
 };
 

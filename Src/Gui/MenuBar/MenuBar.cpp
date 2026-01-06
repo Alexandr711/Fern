@@ -61,6 +61,7 @@ void FernMenuBar::setItems()
     fileMenu->addAction(openProjectAction);
     fileMenu->addAction(createFileAction);
     fileMenu->addAction(createProjectAction);
+    fileMenu->addSeparator();
     fileMenu->addAction(exitAction);
 
     addMenu(editMenu);
@@ -81,3 +82,4 @@ void FernMenuBar::setItems()
 
     helpMenu->addAction(aboutAction);
 }
+
